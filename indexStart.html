@@ -1,60 +1,71 @@
 <html>
-    <head><meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>CS 233JS Concentration</title>
-        <link rel="stylesheet" href="stylesStart.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
-    <body>
-            
-        <div class="container">
-            <div class="content-area row">
-                <div class="col-sm-2"></div>
-            </div>
 
-            <div class="container board" id="board">
-                <div id="status">Matches: 0</div>
-                <div class="row">
-                    <div class="col-xs-1"></div>
-                    <div id="0" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="1" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="2" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="3" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="4" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div class="col-xs-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-1"></div>
-                    <div id="5" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="6" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="7" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="8" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="9" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div class="col-xs-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-1"></div>
-                    <div id="10" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="11" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="12" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="13" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="14" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div class="col-xs-1"></div>
-                </div>    
-                <div class="row">
-                    <div class="col-xs-1"></div>
-                    <div id="15" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="16" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="17" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="18" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div id="19" name="card" class="col-xs-2 card">&nbsp;</div>
-                    <div class="col-xs-1"></div>
-                </div>   
-            </div><!-- /.board -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS 233JS Concentration</title>
+    <link rel="stylesheet" href="stylesStart.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content-area row">
+            <div class="col-sm-2"></div>
+            <!--why 2? / has ?? regard class="col-xs-2 card"-->
+        </div>
+
+        <div class="container board" id="board">
+            <div class="container-fluid">
+                    <h1><div class="pageheader">Concentration</div></h1> 
+                    <h2><div id="status">Matches: 0</div></h2>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div id="0" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="1" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="2" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="3" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="4" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div class="col-xs-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div id="5" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="6" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="7" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="8" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="9" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div class="col-xs-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div id="10" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="11" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="12" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="13" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="14" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div class="col-xs-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div id="15" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="16" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="17" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="18" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div id="19" name="card" class="col-xs-2 card">&nbsp;</div>
+                <div class="col-xs-1"></div>
+            </div>
+        </div><!-- /.board -->
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
         <script src="src/indexStartV1.js"></script>
-    </body>
+</body>
+
 </html>
