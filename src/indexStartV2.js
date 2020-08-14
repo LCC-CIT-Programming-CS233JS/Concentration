@@ -92,7 +92,7 @@ class Concentration {
     enableAllRemainingCards() {
         let cards = document.getElementsByName("card");
         for (let i = 0; i < cards.length; i++) {
-            if (cards[i].style.backgroundImage != 'none') { //might need to remove quotes?
+            if (cards[i].style.backgroundImage != 'none') { 
                 cards[i].onclick = handleClick(this, i);
                 cards[i].style.cursor = 'pointer';
             }
